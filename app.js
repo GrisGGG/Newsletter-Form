@@ -46,6 +46,7 @@ const response = await mailchimp.lists.addListMember(listId, {
  }.`
 );
 }
+//if not then the user is send to the failure page
  run().catch(e => res.sendFile(__dirname + "/failure.html"),
  app.post("/failure", (req, res) =>{
     res.redirect("/")})
