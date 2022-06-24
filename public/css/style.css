@@ -1,0 +1,63 @@
+html,
+body {
+  height: 100%;
+}
+#bd{
+  background-image: url('/images/background-image.jpg');
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+.form-signin {
+  font-family: 'Anek Malayalam', sans-serif;
+  border-radius: 20px;
+  max-width: 330px;
+  padding: 14px;
+  background: rgba(255, 255, 2555, 0.03);
+  box-shadow: -1px -1px 10px 3px rgba(255, 255, 2555, 0.56);
+  color: aliceblue;
+}
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+.top {
+  margin-bottom: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.middle{
+  border-radius: 0;
+  margin-bottom: 10px;
+}
+#bg-input, #bg-input1, #bg-input2{
+  background: rgba(255, 255, 2555, 0.144);
+  border:none;
+  box-shadow: -3px 5px 11px 5px rgba(227,223,223,0.1) inset;
+-webkit-box-shadow: -3px 5px 11px 5px rgba(227,223,223,0.1) inset;
+-moz-box-shadow: -3px 10px 5px 5px rgba(227,223,223,0.1) inset;
+  color: #fff;
+}
+#bg-input:active, #bg-input1:active, #bg-input2:active{
+  background: rgba(255, 255, 2555, 0.145);
+  border:none;
+  box-shadow: -3px 5px 11px 5px rgba(227,223,223,0.1) inset;
+-webkit-box-shadow: -3px 5px 11px 5px rgba(227,223,223,0.1) inset;
+-moz-box-shadow: -3px 10px 5px 5px rgba(227,223,223,0.1) inset;
+  color: #fff;
+}
+.bottom{
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.container{
+  font-family: 'Anek Malayalam', sans-serif;
+}
+.btn {
+  margin-top: 10px;
+}
